@@ -32,3 +32,7 @@ Visit `http://hostname:port` and enjoy.
 
 [npm-url]: https://npmjs.org/package/cd-cluster
 [npm-image]: https://badge.fury.io/js/cd-cluster.svg
+
+
+运行
+node ./bin/www
