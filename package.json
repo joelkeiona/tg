@@ -1,0 +1,45 @@
+{
+  "name": "cd-cluster",
+  "version": "0.12.6",
+  "description": "A lightweight Continuous Deployment / Continuous Integration platform written in node.",
+  "main": "index.js",
+  "bin": {
+    "cd-master": "./bin/master.js",
+    "cd-slave": "./bin/slave.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lanfei/cd-cluster.git"
+  },
+  "keywords": [
+    "continuous",
+    "deployment",
+    "integration",
+    "cluster"
+  ],
+  "author": "Lanfei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lanfei/cd-cluster/issues"
+  },
+  "homepage": "https://github.com/Lanfei/cd-cluster#readme",
+  "dependencies": {
+    "async": "^2.0.0",
+    "color2html": "^0.1.2",
+    "commander": "^2.9.0",
+    "cookie-parser": "^1.4.3",
+    "date-stream": "^1.0.1",
+    "express": "^4.14.0",
+    "fs-extra": "^0.30.0",
+    "gotpl": "^4.6.0",
+    "jsonwebtoken": "^7.1.6",
+    "minimatch": "^3.0.2",
+    "morgan": "^1.7.0",
+    "ms": "^0.7.1",
+    "qs": "^6.2.1",
+    "tar-fs": "^1.13.0"
+  }
+}
